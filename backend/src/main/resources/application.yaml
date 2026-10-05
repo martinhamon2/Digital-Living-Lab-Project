@@ -1,0 +1,9 @@
+server:
+  port: 3000
+cors:
+  allowed-origins:
+    - http://localhost:8080 #frontend port
+    - http://localhost:8081 #frontend backup port
+spring:
+  application:
+    name: steamdeck-app
