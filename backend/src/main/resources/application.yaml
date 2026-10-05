@@ -7,3 +7,7 @@ cors:
 spring:
   application:
     name: steamdeck-app
+
+  output:
+    ansi: 
+      enabled: always #colorful terminal output
