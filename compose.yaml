@@ -1,0 +1,13 @@
+services:
+  controller:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "127.0.0.1:3000:3000"
+    volumes:
+      - controller-data:/app/data
+    restart: unless-stopped
+
+volumes:
+  controller-data:

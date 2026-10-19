@@ -1,0 +1,9 @@
+.git
+.venv
+**/target
+**/node_modules
+**/data
+bridge
+arduino
+frontend
+.vscode
